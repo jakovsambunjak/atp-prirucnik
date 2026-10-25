@@ -1,10 +1,10 @@
 # Moj razvojni priručnik
 
-[Jedna rečenica: što je ovaj priručnik i čemu služi.]
+Ovaj priručnik je uvod u terminal i služi da čitatelj nauči osnovne naredbe u linux terminalu
 
 ## Kome je namijenjen
 
-[Tko je čitatelj? Što već zna, a što ne zna?]
+Namijenjen je početnicima.
 
 ## Moje razvojno okruženje
 
