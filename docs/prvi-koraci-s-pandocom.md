@@ -23,10 +23,6 @@ Dodajte put do mape (putanja u kojoj se nalazi pandoc.exe) u varijablu okruženj
 export PATH="/c/Users/username/pandoc-3.13-windows-x86_64/pandoc-3.13:$PATH"
 ```
 
-### macOS
-
-[Koraci za macOS. Ako nemate Mac, ostavite odjeljak za kolegu iz dijela D.]
-
 ## 2. Provjerite instalaciju
 
 ```bash
