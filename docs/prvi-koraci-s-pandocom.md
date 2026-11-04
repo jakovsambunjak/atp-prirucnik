@@ -18,6 +18,7 @@ Preuzmite službeni .zip paket s Pandoc GitHub Releases stranice.
 Raspakirajte ZIP arhivu na lokalni disk (npr. C:\Pandoc).
 
 Dodajte put do mape (putanja u kojoj se nalazi pandoc.exe) u varijablu okruženja PATH:
+
 ```
 export PATH="/c/Users/username/pandoc-3.13-windows-x86_64/pandoc-3.13:$PATH"
 ```
@@ -39,6 +40,7 @@ pandoc --version
 ```
 pandoc README.md -o izlaz/README.docx
 ```
+
 Trebali bi u Wordu vidjeti kako su naslovi dobili odgovarajuće headinge u Wordu.
 
 ## 4. Pretvorite Markdown u web-stranicu
@@ -46,14 +48,15 @@ Trebali bi u Wordu vidjeti kako su naslovi dobili odgovarajuće headinge u Wordu
 ```
 pandoc README.md -s -o izlaz/README-samostalno.html
 ```
+
 Napravit će se cijela web-stranica (-s znači standalone)
 
 ## Ako ne radi
 
-    | Poruka | Što znači | Što učiniti |
-
-    | command not found ili 'pandoc' is not recognized...| Sustav ne može pronaći izvršnu datoteku Pandoca jer nije u PATH-u ili instalacija nije završena | Provjerite je li put do Pandoca dodan u sustavni PATH, pa zatvorite i ponovno otvorite terminal | 
-    | cannot open file README.md | Terminal se ne nalazi u istoj mapi u kojoj je spremljena vaša Markdown datoteka | Navigirajte do prave mape pomoću naredbe cd put/do/mape ili navedite punu putanju do datoteke |
+| Poruka | Što znači | Što učiniti |
+|---|---|---|
+| command not found ili 'pandoc' is not recognized...| Sustav ne može pronaći izvršnu datoteku Pandoca jer nije u PATH-u ili instalacija nije završena | Provjerite je li put do Pandoca dodan u sustavni PATH, pa zatvorite i ponovno otvorite terminal |
+| cannot open file README.md | Terminal se ne nalazi u istoj mapi u kojoj je spremljena vaša Markdown datoteka | Navigirajte do prave mape pomoću naredbe cd put/do/mape ili navedite punu putanju do datoteke |
 
 ## Što ste napravili
 
